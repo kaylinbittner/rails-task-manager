@@ -1,0 +1,62 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+strong {
+  border-style: solid;
+  padding: 5px;
+}
+
+li {
+  margin-bottom: 15px;
+  margin-left: 35%;
+}
+
+.unmarked {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-weight: lighter;
+  border-style: solid;
+  border-color: rgba(200,200,200,0.6);
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.6);
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+p {
+  text-decoration: underline;
+}
+
+
+.btn-primary {
+  margin-top: 30px;
+}
+
+h4 {
+  margin-left: 15%;
+}
